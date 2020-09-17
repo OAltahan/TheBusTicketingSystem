@@ -1,0 +1,62 @@
+#scene {
+    -fx-background-image: url("/OnlineTicket/pattern.jpg");
+}
+
+/*
+Button{
+    -fx-font-size: 50px;
+}
+
+/* fewf */
+/*
+Button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(#aacccc, #eeeeee);
+    -fx-font-size: 50px;
+}*/
+
+#nextButton {
+    -fx-background-color: linear-gradient(#2780c6, #1f386e),
+    linear-gradient(#1f386e, #192156);
+    -fx-background-radius: 25px;
+    -fx-font: 20px \"Serif\";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+#myView {
+    -fx-border-color: #fd8204;
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px;
+    -fx-background-color: #fff;
+    -fx-background-radius: 50px;
+}
+
+#seat {
+    -fx-border-color: #fd8204;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-font-size: 19;
+    -fx-font-weight: bold;
+}
+
+#seat:hover {
+    -fx-border-color: #fd8204;
+    -fx-border-radius: 25px;
+    -fx-border-width: 2px;
+    -fx-background-color: #fd8204;
+    -fx-background-radius: 25px;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-border-width: 1;
+}
+
+.table-view {
+    -fx-table-cell-border-color: transparent;
+}
